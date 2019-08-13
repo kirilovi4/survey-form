@@ -1,0 +1,87 @@
+body{
+    background: #79C0AF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial Narrow, sans-serif;
+    font-size: 18px;
+  }
+  #form{
+    background: #FDFDFD;
+    width: 60%;
+    border-radius: 10px;
+  }
+  #survey-form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #label{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  #right-part{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  input[type=text]{
+    width: 60%;
+    padding: 12px;
+  }
+  select{
+    width: 30%;
+    padding: 8px;
+  }
+#choice{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+input[type=radio]{
+  margin-bottom: 15px; 
+}
+input[type=checkbox]{
+  margin-bottom: 15px;
+}
+#description{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  font-size: 22px;
+}
+input[type=number]{
+  width: 60%;
+  padding: 12px;
+}
+textarea{
+  width: 60%;
+  height: 100%;
+}
+#buttons{
+   padding: 20px;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+
+button{
+  border: none;
+  padding: 16px;
+  width: 60%;
+  background: #79C0AF;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 14px;
+}
+#button-submit, #button-reset{
+  display: flex;
+  justify-content: center;
+}
+#title{
+  color: #242420;
+}
