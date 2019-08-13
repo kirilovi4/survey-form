@@ -17,13 +17,13 @@ body{
     grid-template-columns: 1fr 1fr;
   }
   #label{
+    margin: 0 20px 0 20px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-right: 20px;
-    margin-left: 20px;
   }
   #right-part{
+    margin: 0 20px 0 20px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -38,21 +38,21 @@ body{
     padding: 8px;
   }
 #choice{
+  margin: 0 20px 0 20px;
   display: flex;
   justify-content: flex-end;
-  margin-right: 20px;
-  margin-left: 20px;
 }
 input[type=radio]{
-  margin-bottom: 15px; 
+  margin: 10px 10px 10px 0;
 }
 input[type=checkbox]{
-  margin-bottom: 15px;
+  margin: 10px 10px 10px 0;
 }
 #description{
   padding: 10px;
   display: flex;
   justify-content: center;
+  align-items: center;
   font-size: 22px;
 }
 input[type=number]{
@@ -70,17 +70,21 @@ textarea{
 }
 
 button{
+  margin: 0 20px 0 20px;
   border: none;
   padding: 16px;
-  width: 60%;
+  width: 50%;
   background: #79C0AF;
   color: #ffffff;
-  border-radius: 5px;
   font-size: 14px;
 }
-#button-submit, #button-reset{
+#button-submit{
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
+}
+#button-reset{
+   display: flex;
+   justify-content: flex-start;
 }
 #title{
   color: #242420;
